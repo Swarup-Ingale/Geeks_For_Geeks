@@ -1,2 +1,0 @@
-# code here
-print('"GeeksForGeeks"')
