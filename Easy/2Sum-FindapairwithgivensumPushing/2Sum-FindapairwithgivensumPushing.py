@@ -1,16 +1,11 @@
 class Solution:
     def twoSum(self, arr, target):
-        n = len(arr)
-        arr.sort()
-        l = 0
-        r = n - 1
+        seen = set()
         
-        while n != 0 and l < r:
-            if arr[l] + arr[r] == target:
-                return [arr[l], arr[r]]
-            else:
-                if arr[l] + arr[r] > target:
-                    r -= 1
-                else:
-                    l += 1
+        for n in arr:
+            com = target - n
+            if com in seen:
+                return [com, n]
+            seen.add(n)
+        
         return []
