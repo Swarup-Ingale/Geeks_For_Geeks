@@ -1,0 +1,7 @@
+<h2><a href="#">Ways to Reach OriginPushing...</a></h2>
+<h3>Difficulty: Medium</h3><hr>
+<p><span style="font-size: 14pt;">Geek is standing at a point <strong>(x, y)</strong> on a 2D grid and wants to reach the origin (0, 0). </span></p><p><span style="font-size: 14pt;">From any point, Geek can move in only two directions: left, from (x, y) to (x - 1, y), or down, from (x, y) to (x, y - 1).</span></p><p><span style="font-size: 14pt;">Find the total number of distinct paths for Geek to reach (0, 0) from (x, y). Since the answer can be very large, return it modulo 10<sup>9</sup>+7.</span></p><p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p><pre><span style="font-size: 14pt;"><strong>Input: </strong>x = 3, y = 0<strong>
+Output: </strong>1<strong>
+Explanation: </strong>The only possible path is (3, 0) -&gt; (2, 0) -&gt; (1, 0) -&gt; (0, 0), since y = 0, there is no option to move down at any step.</span></pre><pre><span style="font-size: 14pt;"><strong>Input: </strong>x = 3, y = 6<strong>
+Output: </strong>84<strong>
+Explanation: </strong>There are a total of 84 distinct paths from (3, 6) to (0, 0) using only left and down moves.</span></pre>
