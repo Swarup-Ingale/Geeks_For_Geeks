@@ -1,0 +1,6 @@
+<h2><a href="#">Length of Linked ListPushing...</a></h2>
+<h3>Difficulty: Basic</h3><hr>
+<p><span style="font-size: 18px;">Given <strong>head </strong>of a singly linked list. Find the <strong>length</strong> of the linked list, where length is defined as the number of nodes in the linked list.</span></p><p><strong><span style="font-size: 18px;">Examples :</span></strong></p><pre><strong><span style="font-size: 18px;">Input: </span></strong><span style="font-size: 18px;">head: 1 -&gt; 2 -&gt; 3 -&gt; 4 -&gt; 5<br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/925937/Web/Other/blobid0_1778579834.webp" width="452" height="68"><br><strong>Output: </strong>5<strong>
+Explanation:</strong> Length of the linked list is 5, as there are 5 nodes present in it.</span>
+</pre><pre><strong><span style="font-size: 18px;">Input: </span></strong><span style="font-size: 18px;">head: 2 -&gt; 4 -&gt; 6 -&gt; 7 -&gt; 5 -&gt; 1 -&gt; 0<br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/925937/Web/Other/blobid2_1778579856.webp" width="589" height="69"> <br><strong>Output: </strong>7<strong>
+Explanation: </strong></span><span style="font-size: 14pt;">Length of the linked list is 7, as there </span><span style="font-size: 18px;">are 7 nodes present in it.</span></pre>
