@@ -1,0 +1,7 @@
+<h2><a href="#">Height of Binary TreePushing...</a></h2>
+<h3>Difficulty: Easy</h3><hr>
+<p><span style="font-size: 14pt;">Given the <strong>root </strong>of a binary tree, find the maximum depth<strong>&nbsp;</strong>of the tree.</span></p>
+<p><strong><span style="font-size: 14pt;">Note:&nbsp;</span></strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 14pt;">The maximum depth or height of the tree is the number of edges in the tree from the root to the deepest node.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>root = [12, 8, 18, 5, 11]<br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/912526/Web/Other/blobid0_1758863116.webp" width="264" height="183"><br><strong>Output:</strong> 2<br><strong>Explanation: </strong>One of the longest path from the root(node 12) goes through node 8 to node 5, which has 2 edges.</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>root = [1, 2, 3, 4, N, 10, 5, N, N, N, N, 6, 7]<br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/912526/Web/Other/blobid1_1758863142.webp" width="261" height="219"><br><strong>Output:</strong> 3<br><strong>Explanation: </strong>The longest path from the root(node 1) to a leaf node 6 with 3 edges.</span></pre>
