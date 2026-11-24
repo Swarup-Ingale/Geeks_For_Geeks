@@ -1,0 +1,7 @@
+<h2><a href="#">Two Pairs with Same SumPushing...</a></h2>
+<h3>Difficulty: Medium</h3><hr>
+<p><span style="font-size: 18px;">Given an array <strong>arr[]</strong> of positive integers, find four indices <strong>a</strong>, <strong>b</strong>, <strong>c</strong>, and <strong>d</strong> such that arr[a] + arr[b] = arr[c] + arr[d], where a, b, c, d are all distinct indices.</span></p><ul><li><span style="font-size: 18px;">If multiple such quadruplets exist, return the one that is lexicographically smallest when the indices are considered in the order a, b, c, d. </span></li><li><span style="font-size: 18px;">If no such quadruplet exists, return {-1, -1, -1, -1}.&nbsp; </span></li><li><span style="font-size: 18px;">Ensure a &lt; b and c &lt; d, and the pair (a, b) is lexicographically smaller than the pair (c, d).</span></li></ul><p><strong style="font-size: 18px;">Examples:</strong></p><pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [3, 4, 7, 1, 2, 9, 8]<strong>
+Output: </strong>[0, 2, 3, 5]<strong>
+Explanation: </strong>arr[0] + arr[2] = 3 + 7 = 10, arr[3] + arr[5] = 1 + 9 = 10. <br>This is the lexicographically smallest such quadruplet of indices.</span></pre><pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [1, 2, 3, 3]<strong>
+Output: </strong>[-1, -1, -1, -1]<strong>
+Explanation: </strong>No two distinct pairs of indices produce the same sum.</span></pre>
